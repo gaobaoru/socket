@@ -1,3 +1,0 @@
-some test about socket programming
-
-1、thread_create 线程创建实验　gcc thread_create.c -o tr1 -lpthreads
