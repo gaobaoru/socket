@@ -1,3 +1,9 @@
 some test about socket programming
 
-1、thread_create 线程创建实验　gcc thread_create.c -o tr1 -lpthreads
+1、thread_create 线程创建实验　　　　　　gcc thread_create.c -o tr1 -lpthreads
+2、thread_join 　　函数控制线程执行流　　　gcc thread_join.c -o tr2 -lpthread
+3、worker_thread 工作线程模型        　　　gcc worker_thread.c -o tr3 -lpthread
+4、multiple_thread 多线程临界区错误　　　
+5、mutex         互斥量、锁机制　不允许多个线程同时访问
+6、semaphore     信号量（另一种同步技术）　　gcc semaphore.c -D_REENTRANT -o semaphore -lpthread
+7、chatroom_multiple_thread   多线程并发服务器实现(chatroom_server/chatroom_server_extend区别：是否发给自己)
